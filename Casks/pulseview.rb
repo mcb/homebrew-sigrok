@@ -12,7 +12,7 @@ cask "pulseview" do
   end
 
   auto_updates true
-  depends_on macos: ">= :mavericks"
+  # depends_on macos: ">= :mavericks"
 
   app "Pulseview.app"
 
